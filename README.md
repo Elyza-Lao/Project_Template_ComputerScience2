@@ -1,28 +1,19 @@
-
-# Step-by-Step Checklist
-
-1. Pick a Dataset: Look inside /data (e.g., students.json, sales.json, movies.json) and decide which topic interests you most.
-2. Draft Your Proposal: Open /docs/proposal_template.md, fill in your project goals, target audience, and the key questions your dashboard will answer.
-3. Update README.md: Replace the starter instructions with an overview of your specific project.
-4. Push to GitHub: Save, commit, and push your updated files to your forked repository.
-
-# Sample README.md Update
-
-Once you choose a dataset, you can replace the starter README.md text with something like this:
-markdown
-# 📊 [Your Project Name, e.g., Box Office Trends Dashboard]
+# 📚 Student Study Buddy (Planner) — Group 10
 
 ## Overview
-This project is an interactive data insights dashboard built to analyze [briefly describe your dataset, e.g., movie ratings, genres, and box office revenue]. 
+**Student Study Buddy (Planner)** is an interactive academic task and study management dashboard designed to help students stay organized with their assessments, requirements, deadlines, and tests. By breaking down schoolwork into manageable daily plans and tracking task progress, the application helps students build consistent study habits and avoid last-minute cramming.
 
-## Dataset
-* **Source:** `/data/[chosen_file.json]`
-* **Key Metrics Analyzed:** [e.g., Release Year, Genre, Budget, Gross Revenue]
+## Problem & Target Users
+* **The Problem:** Many students struggle to track overlapping deadlines and disorganized schedules, leading to missed requirements, cramming, and over-reliance on AI without genuinely learning the material.
+* **Target Users:** Students who have difficulty organizing their academic schedules and want a structured system to balance their workload and track progress.
 
-## Planned Features
-* Interactive filtering by [e.g., category/date]
-* Visual charts comparing [e.g., top-performing items]
-* Summary statistics (averages, totals, trends)
+## Key Features
+* **Add School Tasks / To-Do:** Input assignments, schoolwork, subjects, and reminders.
+* **Set Deadlines & Priorities:** Assign due dates and priority levels to identify urgent tasks first.
+* **Update Task Progress:** Track workflow states using `NOT STARTED`, `IN PROGRESS`, and `COMPLETED` statuses.
+* **View Tasks & Insights:** Filter and view remaining tasks, upcoming deadlines, and overall completion progress.
 
-## Documentation
-See `/docs/proposal_template.md` for the full project plan and timeline.
+## Repository Structure
+* `/data` → Sample and persistent JSON datasets storing task records (`task_name`, `subject`, `deadline`, `priority`, `status`).
+* `/docs` → Contains the full [Project Proposal](./docs/proposal_template.md) and wireframe documentation.
+* `README.md` → Project overview and documentation.
