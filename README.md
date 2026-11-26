@@ -1,22 +1,28 @@
-# Project_Template_ComputerScience2
 
-# 📊 Data Insights Dashboard Project
+# Step-by-Step Checklist
 
-This repository serves as a STARTER TEMPLATE for the Yearlong Programming Project.
+1. Pick a Dataset: Look inside /data (e.g., students.json, sales.json, movies.json) and decide which topic interests you most.
+2. Draft Your Proposal: Open /docs/proposal_template.md, fill in your project goals, target audience, and the key questions your dashboard will answer.
+3. Update README.md: Replace the starter instructions with an overview of your specific project.
+4. Push to GitHub: Save, commit, and push your updated files to your forked repository.
 
-## 📂 Repository Structure
-- `/data` → Contains sample JSON datasets you can choose from.
-- `/docs` → Place your project proposal and related documentation here.
-- `README.md` → Basic introduction to your project.
+# Sample README.md Update
 
-## Instructions:
-1. Choose a dataset from the `/data` folder (e.g., students.json, sales.json, movies.json, etc.).
-2. Write your Project Proposal using the provided template (`/docs/proposal_template.md`).
-3. Update this `README.md` to describe your project idea.
-4. Commit and push your changes to GitHub.
+Once you choose a dataset, you can replace the starter README.md text with something like this:
+markdown
+# 📊 [Your Project Name, e.g., Box Office Trends Dashboard]
 
-##  Getting Started
-- Fork or clone this repository.
-- Open the datasets in the `/data` folder to explore the contents.
-- Follow the proposal template to draft your plan.
+## Overview
+This project is an interactive data insights dashboard built to analyze [briefly describe your dataset, e.g., movie ratings, genres, and box office revenue]. 
 
+## Dataset
+* **Source:** `/data/[chosen_file.json]`
+* **Key Metrics Analyzed:** [e.g., Release Year, Genre, Budget, Gross Revenue]
+
+## Planned Features
+* Interactive filtering by [e.g., category/date]
+* Visual charts comparing [e.g., top-performing items]
+* Summary statistics (averages, totals, trends)
+
+## Documentation
+See `/docs/proposal_template.md` for the full project plan and timeline.
